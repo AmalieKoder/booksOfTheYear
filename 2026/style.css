@@ -207,6 +207,11 @@ p {
     background-image: linear-gradient(#c30a4a, #451318, #020107, #f6be37, #000000);
     color: white;
 }
+.hoverActive27
+{
+    background-image: linear-gradient(#798681, #0c313b, #151311, #827040, #dfe8e6);
+    color: white;
+}
 
 /* Footer */
 
