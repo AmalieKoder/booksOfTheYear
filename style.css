@@ -183,3 +183,41 @@ p {
 footer {
     text-align: center;
 }
+
+/* 📱 Phone */
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .month {
+        font-size: 30px;
+    }
+
+    .marginDiv {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 15px;
+    }
+
+    .divFlex,
+    .divStar {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
