@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: "Almendra Display", serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+/* Heder */
+
+h1 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header p > a {
+    text-decoration: none;
+}
+
+header p > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #012235;
+}
+
+/* Main */
+
+.month {
+    font-size: 40px;
+}
+
+.marginDiv {
+    margin-left: 20rem;
+}
+
+.divFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 6rem;
+}
+
+.divGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.divStar {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 6rem;
+}
+
+.img {
+    height: 250px;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+.hoverActive
+{
+    background-image: linear-gradient(#7a3d34, #333833, #20272c, #807a76, #2f251e);
+    color: white;
+}
+.hoverActive1
+{
+    background-image: linear-gradient(#cac6b0, #a2905f, #989892, #323a3e, #253036);
+    color: white;
+}
+.hoverActive2
+{
+    background-image: linear-gradient(#06070c, #dad9d7, #937846, #7b5420, #232224);
+    color: white;
+}
+.hoverActive3
+{
+    background-image: linear-gradient(#72553f, #554234, #b09178, #926645, #010207);
+    color: white;
+}
+.hoverActive4
+{
+    background-image: linear-gradient(#9fa2a6, #11506b, #037c8d, #e0cec5, #063049);
+    color: white;
+}
+.hoverActive5
+{
+    background-image: linear-gradient(#cb3a39, #5a1913, #8f2b2c, #e33c4e, #881b22);
+    color: white;
+}
+.hoverActive6
+{
+    background-image: linear-gradient(#d4d6b2, #38696f, #4e594d, #576c72, #9cbbba);
+    color: white;
+}
+.hoverActive7
+{
+    background-image: linear-gradient(#4e6f8d, #090808, #c1a7a8, #90716b, #333032);
+    color: white;
+}
+.hoverActive8
+{
+    background-image: linear-gradient(#543d23, #e7d9ce, #4e1509, #19322d, #121210);
+    color: white;
+}
+.hoverActive9
+{
+    background-image: linear-gradient(#439467, #0e796c, #064e45, #0d7060, #dcf1c6);
+    color: white;
+}
+.hoverActive10
+{
+    background-image: linear-gradient(#86776a, #795539, #b6753e, #100903, #422e1f);
+    color: white;
+}
+.hoverActive11
+{
+    background-image: linear-gradient(#3e4e58, #8da5ae, #bdcdc3, #b0d8ea, #1e2c35);
+    color: white;
+}
+.hoverActive12
+{
+    background-image: linear-gradient(#213882, #194499, #085ead, #a1b0b5, #e9e8e9);
+    color: white;
+}
+.hoverActive13
+{
+    background-image: linear-gradient(#07120f, #37413e, #251213, #0d0e0c, #25492b);
+    color: white;
+}
+.hoverActive14
+{
+    background-image: linear-gradient(#010000, #c65586, #dab4bd, #2f2f2e, #278140);
+    color: white;
+}
+.hoverActive15
+{
+    background-image: linear-gradient(#1f150b, #01090a, #78170f, #5b4f3d, #040a09);
+    color: white;
+}
+.hoverActive16
+{
+    background-image: linear-gradient(#e3c9ca, #655368, #504061, #826f89, #e6dbe8);
+    color: white;
+}
+.hoverActive17
+{
+    background-image: linear-gradient(#593627, #4b0704, #9d1406, #e42006, #660b04);
+    color: white;
+}
+.hoverActive18
+{
+    background-image: linear-gradient(#76a7a3, #27233e, #586866, #17161b, #363636);
+    color: white;
+}
+.hoverActive19
+{
+    background-image: linear-gradient(#fbedee, #906679, #d18d9d, #d8a992, #f9ced6);
+    color: white;
+}
+.hoverActive20
+{
+    background-image: linear-gradient(#615a6d, #8e7d7e, #6f6b89, #7d5b6e, #27232f);
+    color: white;
+}
+.hoverActive21
+{
+    background-image: linear-gradient(#000000, #16151a, #c9bcd3, #949dad, #997da7);
+    color: white;
+}
+.hoverActive22
+{
+    background-image: linear-gradient(#20222a, #041721, #5e102e, #3c5254, #4c6a69);
+    color: white;
+}
+.hoverActive23
+{
+    background-image: linear-gradient(#869eae, #0f111d, #393d4b, #284f65, #aac0cd);
+    color: white;
+}
+.hoverActive24
+{
+    background-image: linear-gradient(#01232c, #accbb9, #0a1d1a, #040707, #3d5956);
+    color: white;
+}
+.hoverActive25
+{
+    background-image: linear-gradient(#3e1321, #21211f, #a9a0a2, #681d23, #2e2c2a);
+    color: white;
+}
+.hoverActive26
+{
+    background-image: linear-gradient(#cea6a6, #131111, #2b2927, #ac3c3e, #23201e);
+    color: white;
+}
+.hoverActive27
+{
+    background-image: linear-gradient(#c30a4a, #451318, #020107, #f6be37, #000000);
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}

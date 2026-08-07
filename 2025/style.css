@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: "Almendra Display", serif;
+    font-weight: 500;
+    font-style: normal
+}
+
+/* Heder */
+
+h1 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header p > a {
+    text-decoration: none;
+}
+
+header p > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #012235;
+}
+
+/* Main */
+
+.month {
+    font-size: 40px;
+}
+
+.marginDiv {
+    margin-left: 20rem;
+}
+
+.divFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 6rem;
+}
+
+.divStar {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 6rem;
+}
+
+.img {
+    height: 250px;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+.hoverActive
+{
+    background-image: linear-gradient(#5f354e, #1b4944, #ede8ee, #6c4c58, #b86d67);
+    color: white;
+}
+
+.hoverActive2 {
+    background-image: linear-gradient(#ccb4a8, #7e6358, #34100a, #4a140c, #c39a84);
+    color: white;
+}
+.hoverActive3 {
+    background-image: linear-gradient(#0e2c2e, #238e9c, #b8c2c1, #340a09, #071110);
+    color: white;
+}
+.hoverActive4 {
+    background-image: linear-gradient(#834552, #3d373e, #867170, #cacad8, #888ea0);
+    color: white;
+}
+.hoverActive5 {
+    background-image: linear-gradient(#403f47, #675464, #e4efa6, #bb8d57, #312c33);
+    color: white;
+}
+.hoverActive6 {
+    background-image: linear-gradient(#2f242e, #09090c, #701526, #0f1318, #a28092);
+    color: white;
+}
+.hoverActive7 {
+    background-image: linear-gradient(#1b1412, #7f4471, #49301c, #1f1327, #1e171f);
+    color: white;
+}
+.hoverActive8 {
+    background-image: linear-gradient(#f3f3f3, #fbfbfb, #848687, #523c7a, #364440);
+    color: white;
+}
+.hoverActive9 {
+    background-image: linear-gradient(#0d0c14, #263923, #1f291f, #7b857c, #676775);
+    color: white;
+}
+
+.hoverActive10 {
+    background-image: linear-gradient(#a43028, #040602, #f3e1ca, #3a100b, #0f0102);
+    color: white;
+}
+
+.hoverActive11 {
+    background-image: linear-gradient(#6c7466, #162211, #0e0e0d, #bbbdba, #4d0209);
+    color: white;
+}
+
+.hoverActive12 {
+    background-image: linear-gradient(#38253e, #c5a476, #4d3850, #937a76, #8f725a);
+    color: white;
+}
+
+.hoverActive13 {
+    background-image: linear-gradient(#bdb48b, #000008, #e9e0ac, #020400, #75705c);
+    color: white;
+    position: relative;
+}
+.hoverActive14 {
+    background-image: linear-gradient(#080a0c, #11181f, #232d3b, #514c8d, #142523);
+    color: white;
+}
+.hoverActive15 {
+    background-image: linear-gradient(#03030d, #3c1b10, #b37336, #da9f37, #140f0e);
+    color: white;
+}
+.hoverActive16 {
+    background-image: linear-gradient(#071125, #040509, #17123e, #384369, #14162b);
+    color: white;
+}
+.hoverActive17 {
+    background-image: linear-gradient(#362220, #564645, #211a22, #e9d8d2, #5a5965);
+    color: white;
+}
+.hoverActive18 {
+    background-image: linear-gradient(#432975, #663f86, #b384ad, #f3debf, #cdb3bd);
+    color: white;
+}
+.hoverActive19 {
+    background-image: linear-gradient(#114d78, #3a5278, #867085, #37558f, #1c476a);
+    color: white;
+}
+.hoverActive20 {
+    background-image: linear-gradient(#a7160c, #d5301a, #3d0401, #1c1614, #0c090c);
+    color: white;
+}
+.hoverActive21 {
+    background-image: linear-gradient(#a57491, #210d27, #391775, #530e43, #140c1e);
+    color: white;
+}
+.hoverActive22 {
+    background-image: linear-gradient(#c03846, #e33c4e, #881b22, #b46123, #551110);
+    color: white;
+}
+.hoverActive23 {
+    background-image: linear-gradient(#7082a2, #02121b, #012235, #d8d1c2, #757265);
+    color: white;
+}
+.hoverActive24 {
+    background-image: linear-gradient(#7e2f25, #1b110b, #3c170f, #bc665a, #45271e);
+    color: white;
+}
+.hoverActive25 {
+    background-image: linear-gradient(#fcfcfb, #ae9e92, #24211d, #193f40, #848d89);
+    color: white;
+}
+.hoverActive26 {
+    background-image: linear-gradient(#57503d, #a17a50, #181717, #3d3630, #200a06);
+    color: white;
+}
+.hoverActive27 {
+    background-image: linear-gradient(#070005, #630704, #eff6e1, #56793e, #88af60);
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
