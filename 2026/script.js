@@ -30,6 +30,9 @@ const imageHover28 = document.querySelector('.imgHover29');
 const imageHover29 = document.querySelector('.imgHover30');
 const imageHover30 = document.querySelector('.imgHover31');
 const imageHover31 = document.querySelector('.imgHover32');
+const imageHover32 = document.querySelector('.imgHover33');
+const imageHover33 = document.querySelector('.imgHover34');
+const imageHover34 = document.querySelector('.imgHover35');
 const body = document.body;
 
 imageHover.addEventListener('mouseover', () => {
@@ -286,4 +289,28 @@ imageHover31.addEventListener('mouseover', () => {
 
 imageHover31.addEventListener('mouseout', () => {
     body.classList.remove('hoverActive31')
+})
+
+imageHover32.addEventListener('mouseover', () => {
+    body.classList.add('hoverActive32');
+});
+
+imageHover32.addEventListener('mouseout', () => {
+    body.classList.remove('hoverActive32')
+})
+
+imageHover33.addEventListener('mouseover', () => {
+    body.classList.add('hoverActive33');
+});
+
+imageHover33.addEventListener('mouseout', () => {
+    body.classList.remove('hoverActive33')
+})
+
+imageHover34.addEventListener('mouseover', () => {
+    body.classList.add('hoverActive34');
+});
+
+imageHover34.addEventListener('mouseout', () => {
+    body.classList.remove('hoverActive34')
 })

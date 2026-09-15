@@ -227,6 +227,21 @@ p {
     background-image: linear-gradient(#222f3b, #5b5555, #25242a, #171e25, #10141d);
     color: white;
 }
+.hoverActive32
+{
+    background-image: linear-gradient(#422a19, #dfdedb, #9d703b, #fefefe, #d5ab69);
+    color: white;
+}
+.hoverActive33
+{
+    background-image: linear-gradient(#af6828, #503e1e, #6e8452, #2a2913, #2c4320);
+    color: white;
+}
+.hoverActive34
+{
+    background-image: linear-gradient(#191133, #0f5e55, #377738, #1e1435, #39563c);
+    color: white;
+}
 
 /* Footer */
 
