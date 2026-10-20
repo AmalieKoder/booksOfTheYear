@@ -36,6 +36,8 @@ const imageHover34 = document.querySelector('.imgHover35');
 const imageHover35 = document.querySelector('.imgHover36');
 const imageHover36 = document.querySelector('.imgHover37');
 const imageHover37 = document.querySelector('.imgHover38');
+const imageHover38 = document.querySelector('.imgHover39');
+const imageHover39 = document.querySelector('.imgHover40');
 const body = document.body;
 
 imageHover.addEventListener('mouseover', () => {
@@ -340,4 +342,20 @@ imageHover37.addEventListener('mouseover', () => {
 
 imageHover37.addEventListener('mouseout', () => {
     body.classList.remove('hoverActive37')
+})
+
+imageHover38.addEventListener('mouseover', () => {
+    body.classList.add('hoverActive38');
+});
+
+imageHover38.addEventListener('mouseout', () => {
+    body.classList.remove('hoverActive38')
+})
+
+imageHover39.addEventListener('mouseover', () => {
+    body.classList.add('hoverActive39');
+});
+
+imageHover39.addEventListener('mouseout', () => {
+    body.classList.remove('hoverActive39')
 })
